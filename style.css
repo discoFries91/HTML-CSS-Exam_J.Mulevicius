@@ -1,0 +1,122 @@
+body{
+    height: 100%;
+    width: 70%;
+    margin: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+header{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align:center;
+}
+
+nav{
+    
+    color: #555555;
+
+}
+
+nav a{
+    color: #555555;
+    text-decoration: none;
+    padding-right: 25px;
+    text-align: center;
+    /* font-family: 'Inter'; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+nav a:last-child{
+    color: #FF3998;
+}
+
+.hero{
+    display: flex;
+    margin-top: 100px;
+}
+
+.hero-text{
+    padding-top: 80px;
+}
+
+.text_1{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF3998;
+}
+
+.text_2{
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+
+}
+
+.text_3{
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+}
+
+.heroButton {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    border: 2px solid red;
+    border-radius: 30px ;
+    background-color: white;
+    padding: 20px 50px;
+}
+
+.hero-image{
+    width: 328px;
+    height: 519px;
+    right: 261px;
+    top: 288px;
+}
+
+
+.text-upsell{
+    margin: 120px 0;
+    height: 380px;
+    color: #111111;
+    background-color: rgb(228, 141, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.text-upsell_1 {
+    padding-top: 200px;
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 40px;
+    
+    
+}
+
+.text-upsell_2 {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    
+}
